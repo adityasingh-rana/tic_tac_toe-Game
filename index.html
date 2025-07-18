@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe by aditya singh.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TIC TAC TOE GAME</h1>
+    <br>
+    <label for="PlayerO">Enter Player 'O' Name:</label>
+    <input type="text" placeholder="PlayerO Name" id="PlayerO">
+    <label for="PlayerX">Enter Player 'X' Name:</label>
+    <input type="text" placeholder="PlayerX Name" id="PlayerX">
+    <br>
+    <button id="start" class="button">START</button>
+    <div class="container">
+        <div class="game disabled"> 
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+    </div>
+    <button id="reset" class="disabled">RESET</button>
+    <p class="msg disabled">
+        Congratulations!
+    </p>
+    <script src="app.js"></script>
+</body>
+</html>
